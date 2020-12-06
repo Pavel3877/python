@@ -1,0 +1,14 @@
+def setup():
+     size(500,500)
+def draw():
+     fill("#0E0F0E")
+     rect(70,70,100,200)
+     fill(random(255),random(255),random(255))
+     circle(120,100,60)
+     fill(random(255),random(255),random(255))
+     circle(120,170,60)
+     fill(random(255),random(255),random(255))
+     circle(120,240,60)
+     fill("#030303")
+     rect(105,270,30,200)
+     fill("#FDFFFC")
